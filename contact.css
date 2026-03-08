@@ -1,0 +1,166 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+header {
+    background-color: #143d59;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 80px;
+}
+
+.logo {
+    color: #ff7b54;
+    font-size: 28px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 40px;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #ff7b54;
+}
+
+
+.contact-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 180px;
+    background-color: #f5f5f5;
+}
+
+.left {
+    width: 45%;
+}
+
+.left h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.left p {
+    font-size: 18px;
+    line-height: 1.7;
+}
+
+.right {
+    width: 40%;
+}
+
+
+form {
+    background-color: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+}
+
+input, textarea {
+    padding: 12px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+}
+
+textarea {
+    height: 100px;
+    resize: none;
+}
+
+button {
+    padding: 12px;
+    border-radius: 25px;
+    border: none;
+    background-color: #143d59;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #ff7b54;
+}
+
+
+footer {
+    background-color: #143d59;
+    color: white;
+    padding: 50px 80px 20px 80px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.quick-links {
+    text-align: left;
+}
+
+.quick-links h4 {
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+.quick-links a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+.quick-links a:hover {
+    color: #ff7b54;
+}
+
+
+.connect {
+    text-align: right;
+}
+
+.connect h4 {
+    margin-bottom: 15px;
+    font-size: 18px;
+    margin-right: 60px;
+}
+
+.icons a {
+    display: inline-block;
+    width: 18px;
+    height: 25px;
+    margin-left: 10px;
+    font-size: 18px;
+    color: white;
+    background-color: rgba(255,255,255,0.15);
+    padding: 10px;
+    border-radius: 50%;
+    transition: 0.3s;
+}
+
+.icons a:hover {
+    background-color: #ff7b54;
+}
+
+
+.copyright {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 14px;
+}
